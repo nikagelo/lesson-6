@@ -1,6 +1,7 @@
 .wrapper {
   background-color: #0020f4;
   height: 308px;
+  position: relative;
 }
 h2 {
   font-family: "Helvetica Neue Bold", sans-serif;
@@ -54,4 +55,63 @@ h2 {
   position: fixed;
   right: 256px;
   bottom: 295px;
+}
+.images :first-child {
+  position: relative;
+}
+.images :nth-child(2) {
+  position: relative;
+}
+.images :nth-child(3) {
+  position: relative;
+}
+.p :first-child {
+  position: absolute;
+  bottom: 200px;
+  width: 300px;
+  background-color: #ffffff;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 74px;
+  margin: 15px;
+  border-radius: 15px;
+  font-family: "Helvetica Neue Regular";
+}
+.p :nth-child(2) {
+  position: absolute;
+  bottom: 280px;
+  margin-left: 530px;
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding-left: 30px;
+  padding-right: 67px;
+  padding-top: 28px;
+  padding-bottom: 29px;
+  font-family: "Helvetica Neue Bold";
+}
+
+.p :nth-child(3) {
+  position: absolute;
+  bottom: 220px;
+  width: 300px;
+  margin-left: 1035px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding-left: 30px;
+  padding-right: 74px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: "Helvetica Neue Regular";
+}
+.images {
+  position: absolute;
+  bottom: 400px;
+  margin-left: 250px;
+}
+.p {
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 480px;
 }
